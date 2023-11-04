@@ -1,12 +1,12 @@
 {
     "name": "🇯𝐈𝐘𝐀 𝐗 🇲𝐔𝐒𝐈𝐂",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "",
+    "logo": "https://graph.org/file/6254678030a1973a41e2e.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "VenomX",
+    "Jiya x Music",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
@@ -29,12 +29,12 @@
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
+        "value": "mongodb+srv://yashsamrat32169:ylWiINR00JzSqwhP@cluster0.j44oov2.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "6194877007",
+        "value": "6585111267",
         "required": true
       },
       "STRING_SESSION": {
