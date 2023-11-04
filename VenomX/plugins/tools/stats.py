@@ -72,7 +72,7 @@ async def overall_stats(client, CallbackQuery, _):
         )
 
 
-@app.on_callback_query(filters.regex("bot_stats_sudo"))
+@app.on_callback_query(filters.regex("bot_stats_Sudo."))
 @languageCB
 async def bot_stats(client, CallbackQuery, _):
     if CallbackQuery.from_user.id not in SUDOERS:
