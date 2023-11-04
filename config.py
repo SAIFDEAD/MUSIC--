@@ -24,8 +24,8 @@ SONG_DOWNLOAD_DURATION = int(
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-# Get this value from @Hot_Girl_Robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6194877007"))
+# Get this value from @SAIF_DICTATOR on Telegram by /id
+OWNER_ID = int(getenv("OWNER_ID", "6585111267"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -42,11 +42,11 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VenomOwners")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Venom_Chatting")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Dead_SupportChat")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Dead_Groupchat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
 AUTO_SUGGESTION_TIME = int(
     getenv("AUTO_SUGGESTION_TIME", "500"))
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
-# Get your pyrogram v2 session from @Venom_string_robot on Telegram
+# Get your pyrogram v2 session from @SAIFSTRINGBOT on Telegram
 STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
@@ -87,18 +87,18 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
+    "START_IMG_URL", "https://graph.org/file/d69d92f9cdb18c4b32211.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
+    "PING_IMG_URL", "https://graph.org/file/0bc8bb883ede5374da2ec.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
+STATS_IMG_URL = "https://graph.org/file/d69d92f9cdb18c4b32211.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
+STREAM_IMG_URL = "https://graph.org/file/0bc8bb883ede5374da2ec.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/d69d92f9cdb18c4b32211.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/8a5171024a3bc5569ee3f.jpg"
