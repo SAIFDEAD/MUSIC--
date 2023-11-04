@@ -36,11 +36,11 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("VenomX.plugins" + all_module)
-    LOGGER("VenomX.plugins").info("Successfully Imported Modules...")
+    LOGGER("Jiya x Music.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Ayush.start()
     try:
-        await Ayush.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Ayush.stream_call("")
     except NoActiveGroupCall:
         LOGGER("VenomX").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
