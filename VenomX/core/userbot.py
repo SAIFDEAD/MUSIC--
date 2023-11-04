@@ -54,8 +54,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("VenomOwners")
-                await self.one.join_chat("Venom_Chatting")
+                await self.one.join_chat("Dead_SupportChat")
+                await self.one.join_chat("Dead_Groupchat")
             except:
                 pass
             assistants.append(1)
@@ -73,7 +73,7 @@ class Userbot(Client):
                 f"Assistant Started as {self.one.name}"
             )
             try:
-                await self.one.send_message(config.LOGGER_ID, f"**» ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.one.id}`\n❄ ɴᴀᴍᴇ : {self.one.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username}"
+                await self.one.send_message(config.LOGGER_ID, f"**» ᴊɪʏᴀ ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.one.id}`\n❄ ɴᴀᴍᴇ : {self.one.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -83,8 +83,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("VenomOwners")
-                await self.two.join_chat("Venom_Chatting")
+                await self.two.join_chat("Dead_SupportChat")
+                await self.two.join_chat("Dead_Groupchat")
             except:
                 pass
             assistants.append(2)
@@ -112,8 +112,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("VenomOwners")
-                await self.three.join_chat("Venom_Chatting")
+                await self.three.join_chat("Dead_SupportChat")
+                await self.three.join_chat("Dead_Groupchat")
             except:
                 pass
             assistants.append(3)
@@ -141,8 +141,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("VenomOwners")
-                await self.four.join_chat("Venom_Chatting")
+                await self.four.join_chat("Dead_SupportChat")
+                await self.four.join_chat("Dead_Groupchat")
             except:
                 pass
             assistants.append(4)
@@ -170,8 +170,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("VenomOwners")
-                await self.five.join_chat("Venom_Chatting")
+                await self.five.join_chat("Dead_SupportChat")
+                await self.five.join_chat("Dead_Groupchat")
             except:
                 pass
             assistants.append(5)
