@@ -1,4 +1,4 @@
-  <p align="center"><a href="https://t.me/SAIF_DICTATOR"> <img src="https://img.shields.io/badge/𝙾𝚆𝙽𝙴𝚁%20To%20-pink?style=for-the-badge" width="220" height="25.00"/></a></p>
+  <p align="center"><a href="https://t.me/SAIF_DICTATOR"> <img src="https://img.shields.io/badge/𝙾𝚆𝙽𝙴𝚁%20-pink?style=for-the-badge" width="220" height="25.00"/></a></p>
 
 
 <h2 align="center">
