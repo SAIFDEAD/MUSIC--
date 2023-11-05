@@ -46,8 +46,8 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Dead_SupportChat")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Dead_Groupchat")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
-AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "False")
 AUTO_SUGGESTION_TIME = int(
     getenv("AUTO_SUGGESTION_TIME", "500"))
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -90,9 +90,9 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://graph.org/file/d69d92f9cdb18c4b32211.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/0bc8bb883ede5374da2ec.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/d116dab334e2c9e23b390.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/d69d92f9cdb18c4b32211.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/d116dab334e2c9e23b390.jpg"
 STATS_IMG_URL = "https://graph.org/file/d69d92f9cdb18c4b32211.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/d69d92f9cdb18c4b32211.jpg"
 TELEGRAM_VIDEO_URL = "https://graph.org/file/d69d92f9cdb18c4b32211.jpg"
