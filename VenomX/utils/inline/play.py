@@ -19,10 +19,10 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text=" ᴏᴡɴᴇʀ ", url="https://t.me/SAIF_DICTATOR",
+                text="♨️ ᴏᴡɴᴇʀ ♨️", url="https://t.me/SAIF_DICTATOR",
             ),
             InlineKeyboardButton(
-                text="ᴄʜᴀɴɴᴇᴋ", url="https://tme/Dead_SupportChat",
+                text="📀 ᴄʜᴀɴɴᴇʟ 📀", url="https://tme/Dead_SupportChat",
             )
         ],
         [
@@ -76,10 +76,10 @@ def stream_markup_timer(_, chat_id, played, dur):
             ],
         [
             InlineKeyboardButton(
-                text=" ᴏᴡɴᴇʀ ", url="https://t.me/SAIF_DICTATOR",
+                text="♨️ ᴏᴡɴᴇʀ ♨️", url="https://t.me/SAIF_DICTATOR",
             ),
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/Dead_Groupchat",
+                text="🦋 sᴜᴘᴘᴏʀᴛ 🦋", url="https://t.me/Dead_Groupchat",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -98,10 +98,10 @@ def stream_markup(_, chat_id):
             ],
         [
             InlineKeyboardButton(
-                text=" ᴏᴡɴᴇʀ ", url="https://t.me/SAIF_DICTATOR",
+                text="♨️ ᴏᴡɴᴇʀ ♨️", url="https://t.me/SAIF_DICTATOR",
             ),
             InlineKeyboardButton(
-                text=" sᴜᴩᴩᴏʀᴛ ", url="https://t.me/Dead_SupportChat",
+                text="🧡 sᴜᴩᴩᴏʀᴛ 🧡 ", url="https://t.me/Dead_SupportChat",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
