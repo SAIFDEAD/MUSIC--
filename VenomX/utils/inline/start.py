@@ -24,14 +24,14 @@ def private_panel(_):
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
-        [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
+        [InlineKeyboardButton(text=_["🦋 ʜᴇʟᴘ 🦋"], callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
-            InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text=_["♨️ ᴏᴡɴᴇʀ ♨️"], user_id=config.OWNER_ID),
+            InlineKeyboardButton(text=_["🕸 sᴜᴘᴘᴏʀᴛ 🕸"], url=config.SUPPORT_CHAT),
         ],
         [
-            InlineKeyboardButton(text=_["S_B_6"], url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/SAIF_DICTATOR"),
+            InlineKeyboardButton(text=_["⚔️ ᴄʜᴀɴɴᴇʟ ⚔️"], url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="🎭 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🎭", url="https://t.me/SAIF_DICTATOR"),
         ],
     ]
     return buttons
