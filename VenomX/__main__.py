@@ -42,7 +42,7 @@ async def init():
     try:
         await Ayush.stream_call("https://graph.org/file/ce82532492d587b3bcd00.mp4")
     except NoActiveGroupCall:
-        LOGGER("VenomX").error(
+        LOGGER("JiyaX").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Jiya X Music Bot..."
         )
         exit()
@@ -55,7 +55,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("VenomX").info("Stopping Jiya x Music Bot...")
+    LOGGER("JiyaX").info("Stopping Jiya x Music Bot...")
 
 
 if __name__ == "__main__":
