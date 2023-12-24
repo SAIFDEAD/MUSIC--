@@ -1,5 +1,5 @@
 {
-    "name": "🇯𝐈𝐘𝐀 𝐗 🇲𝐔𝐒𝐈𝐂",
+    "name": "🇮ɴɴᴏᴄᴇɴᴛ 🇲ᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://graph.org/file/6254678030a1973a41e2e.jpg",
     "keywords": [
@@ -53,7 +53,7 @@
         "required": false
       },
       "LOGGER_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena .",
         "value": "",
         "required": true
       }
