@@ -36,26 +36,26 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("VenomX.plugins" + all_module)
-    LOGGER("Jiya x Music.plugins").info("Successfully Imported Modules...")
+    LOGGER("Innocent Music.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Ayush.start()
     try:
         await Ayush.stream_call("https://graph.org/file/ce82532492d587b3bcd00.mp4")
     except NoActiveGroupCall:
-        LOGGER("JiyaX").error(
-            "Please turn on the videochat of your log group\channel.\n\nStopping Jiya X Music Bot..."
+        LOGGER("Innocent").error(
+            "Please turn on the videochat of your log group\channel.\n\nStopping Innocent Music Bot..."
         )
         exit()
     except:
         pass
     await Ayush.decorators()
-    LOGGER("VenomX").info(
-        "Jiya x Music Bot Started Successfully ⚡✨"
+    LOGGER("Innocent").info(
+        "Imnocent Music Bot Started Successfully ⚡✨"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("JiyaX").info("Stopping Jiya x Music Bot...")
+    LOGGER("Innocent").info("Stopping Innocent Music Bot...")
 
 
 if __name__ == "__main__":
