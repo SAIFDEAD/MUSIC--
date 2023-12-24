@@ -66,7 +66,7 @@ async def start_pm(client, message: Message, _):
                 [
                     [
                         InlineKeyboardButton(text=_["♨️ ᴏᴡɴᴇʀ ♨️"], url="https://t.me/SAIF_DICTATOR"),
-                        InlineKeyboardButton(text=_["💫 sᴜᴘᴘᴏʀᴛ 💫"], url=config.SUPPORT_CHAT),
+                        InlineKeyboardButton(text=_[" sᴜᴘᴘᴏʀᴛ "], url=config.SUPPORT_CHAT),
                     ],
                 ]
             )
