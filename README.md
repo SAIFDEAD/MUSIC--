@@ -2,11 +2,11 @@
 
 
 <h2 align="center">
-   ✨ 🇯ɪʏᴀ  𝐗  🇲ᴜsɪᴄ✨
+   ✨ 🇮ɴɴᴏᴄᴇɴᴛ  🇲ᴜsɪᴄ✨
 </h2>
 
 <p align="center">
-  <img src="https://graph.org/file/d69d92f9cdb18c4b32211.jpg">
+  <img src="https://telegra.ph/file/d9ba0a55e672cdb6f8efe.jpg">
 </p>
 
 <p align="center">
@@ -61,9 +61,9 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </h3>
 
 <p align="center">
-<a href="https://telegram.me/Dead_Groupchat"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/SAIFHELPGC"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://telegram.me/Dead_Groupchat"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/SAIFALLBOT"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
