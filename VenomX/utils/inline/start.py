@@ -26,12 +26,12 @@ def private_panel(_):
         ],
         [InlineKeyboardButton(text=_["S_B_4"], callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text="♨️ ᴏᴡɴᴇʀ ♨️", url="https://t.me/Saif_Dictator"),
-            InlineKeyboardButton(text="🎭 ᴄʜᴀɴɴᴇʟ 🎭", url="https://t.me/DEAD_SupportChat"),
+            InlineKeyboardButton(text=" ᴏᴡɴᴇʀ", url="https://t.me/{OWNER_ID}"),
+            InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ ", url="https://t.me/SAIFALLBOT"),
         ],
         [
-            InlineKeyboardButton(text="💫 ɢʀᴏᴜᴘ 💫", url="https://t.me/Dead_Groupchat"),
-            InlineKeyboardButton(text="🛡 ᴍᴀɴᴇɢᴇʀ 🛡", url="https://t.me/DICMANAGEBOT"),
+            InlineKeyboardButton(text=" ɢʀᴏᴜᴘ ", url="https://t.me/SAIFHELPGC"),
+            InlineKeyboardButton(text="♨️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♨️", url="https://t.me/SAIF_DICTATOR"),
         ],
     ]
     return buttons
