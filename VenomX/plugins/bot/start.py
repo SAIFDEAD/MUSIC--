@@ -1,5 +1,4 @@
 import time
-import rendom
 
 from pyrogram import filters
 from pyrogram.enums import ChatType
