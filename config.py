@@ -24,8 +24,8 @@ SONG_DOWNLOAD_DURATION = int(
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-# Get this value from @SAIF_DICTATOR on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6585111267"))
+# Get this value from @Innocent_Music_pBot on Telegram by /id
+OWNER_ID = int(getenv("OWNER_ID", ""))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -47,9 +47,9 @@ SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SAIFHELPGC")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
-AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
+AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "False")
 AUTO_SUGGESTION_TIME = int(
-    getenv("AUTO_SUGGESTION_TIME", "3600"))
+    getenv("AUTO_SUGGESTION_TIME", "500"))
 # Get this credentials from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
-# Get your pyrogram v2 session from @SAIFSTRINGBOT on Telegram
+# Get your pyrogram v2 session from @Venom_string_robot on Telegram
 STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
@@ -86,25 +86,22 @@ clean = {}
 
 autoclean = []
 
-
 START_IMG_URL = getenv(
     "START_IMG_URL", "https://telegra.ph/file/b340115fb59ac26c7ba8e.jpg"
-)   
-    PING_IMG_URL = getenv(
+)
+PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/d116dab334e2c9e23b390.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/d116dab334e2c9e23b390.jpg"
-STATS_IMG_URL = "https://graph.org/file/0c78b483daa388b7cf6d1.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/37213f2c1cddc6acb564b.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/d9ba0a55e672cdb6f8efe.jpg"
-STREAM_IMG_URL = "https://graph.org/file/0bc8bb883ede5374da2ec.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/0c78b483daa388b7cf6d1.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/d9ba0a55e672cdb6f8efe.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/0c78b483daa388b7cf6d1.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/31f64a87765910f0cc934.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/d9ba0a55e672cdb6f8efe.jpg"
-
-
+PLAYLIST_IMG_URL = "https://graph.org/file/0bc8bb883ede5374da2ec.jpg"
+STATS_IMG_URL = "https://graph.org/file/37213f2c1cddc6acb564b.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/0417330255411b5a5c76b.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/572c826b1479f67952a92.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/f850c1d52d9c5c59d764f.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d7459e1594fbd5b0ebea2.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/bf67f1b3c719c95a66b64.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/cac8979fc73c25926f216.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/c898aad8de4ec026ba163.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/335abcafb3f893909e31a.jpg"
 def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
