@@ -35,22 +35,22 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("VinomX.plugins" + all_module)
-    LOGGER("Innocent Music.plugins").info("Successfully Imported Modules...")
+        importlib.import_module("VenomX.plugins" + all_module)
+    LOGGER("Innocent.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Ayush.start()
     try:
-        await Ayush.stream_call("https://graph.org/file/ce82532492d587b3bcd00.mp4")
+        await Ayush.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("Innocent").error(
-            "Please turn on the videochat of your log group\channel.\n\nStopping Innocent Music Bot..."
+            "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await Ayush.decorators()
     LOGGER("Innocent").info(
-        "Imnocent Music Bot Started Successfully ⚡✨"
+        "Music Bot Started Successfully ✨"
     )
     await idle()
     await app.stop()
