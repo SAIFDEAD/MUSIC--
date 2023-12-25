@@ -87,8 +87,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = ["https://graph.org/file/d69d92f9cdb18c4b32211.jpg", "https://telegra.ph/file/0417330255411b5a5c76b.jpg", "https://telegra.ph/file/37213f2c1cddc6acb564b.jpg", "https://telegra.ph/file/572c826b1479f67952a92.jpg", "https://telegra.ph/file/f850c1d52d9c5c59d764f.jpg", "https://telegra.ph/file/4bc692df76d2497d08976.jpg", "https://telegra.ph/file/d7459e1594fbd5b0ebea2.jpg", "https://telegra.ph/file/bf67f1b3c719c95a66b64.jpg", "https://telegra.ph/file/90cfdf3d8ebc9465ade99.jpg", "https://telegra.ph/file/cac8979fc73c25926f216.jpg", "https://telegra.ph/file/c898aad8de4ec026ba163.jpg", "https://telegra.ph/file/b340115fb59ac26c7ba8e.jpg", "https://telegra.ph/file/dce789da4958fc568bd98.jpg", "https://telegra.ph/file/335abcafb3f893909e31a.jpg", "https://telegra.ph/file/d9ba0a55e672cdb6f8efe.jpg", "https://telegra.ph/file/0bc8bb883ede5374da2ec.jpg"] 
-)
+START_IMG_URL = ["https://graph.org/file/d69d92f9cdb18c4b32211.jpg", "https://telegra.ph/file/0417330255411b5a5c76b.jpg", "https://telegra.ph/file/37213f2c1cddc6acb564b.jpg", "https://telegra.ph/file/572c826b1479f67952a92.jpg", "https://telegra.ph/file/f850c1d52d9c5c59d764f.jpg", "https://telegra.ph/file/4bc692df76d2497d08976.jpg", "https://telegra.ph/file/d7459e1594fbd5b0ebea2.jpg", "https://telegra.ph/file/bf67f1b3c719c95a66b64.jpg", "https://telegra.ph/file/90cfdf3d8ebc9465ade99.jpg", "https://telegra.ph/file/cac8979fc73c25926f216.jpg", "https://telegra.ph/file/c898aad8de4ec026ba163.jpg", "https://telegra.ph/file/b340115fb59ac26c7ba8e.jpg", "https://telegra.ph/file/dce789da4958fc568bd98.jpg", "https://telegra.ph/file/335abcafb3f893909e31a.jpg", "https://telegra.ph/file/d9ba0a55e672cdb6f8efe.jpg", "https://telegra.ph/file/0bc8bb883ede5374da2ec.jpg"]
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/d116dab334e2c9e23b390.jpg"
 )
